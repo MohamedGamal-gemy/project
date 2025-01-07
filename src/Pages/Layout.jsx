@@ -4,10 +4,19 @@ import SideRight from "./SideRight";
 
 const Layout = () => {
   return (
-    <div className="d-flex gap-3 flex-grow-1 mt-4    px-3 ">
+    <div
+      style={{ overflow: "hidden" }}
+      className="d-flex gap-3 justify mt-4  bg-  px-3 "
+    >
       <SideLeft />
-      <MainContent />
+      <div className="flex-grow-1">
+        <MainContent />
+      </div>
+      {/* <div */}
+      {/* // style={{ position: "relative", left: "0%", background: "red" }} */}
+      {/* > */}
       <SideRight />
+      {/* </div> */}
     </div>
   );
 };

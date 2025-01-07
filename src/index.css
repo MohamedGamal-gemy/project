@@ -4,3 +4,39 @@ a {
 .slick-arrow::before {
   color: #4eb7ce !important;
 }
+.custom-accordion .custom-item {
+  border: 1px solid #ddd !important;
+  border-radius: 6px !important;
+  overflow: hidden !important;
+}
+.collapsed {
+  background-color: #eeee !important;
+}
+
+.scr::-webkit-scrollbar {
+  display: none; /* إخفاء شريط التمرير */
+}
+
+.anim {
+  animation: move 0.7s ease-in-out alternate infinite;
+}
+
+@keyframes move {
+  0% {
+    bottom: 60px;
+  }
+  100% {
+    bottom: 40px;
+  }
+}
+
+.tes::-webkit-scrollbar {
+  display: none;
+}
+.inset-obj {
+  height: 100px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+}

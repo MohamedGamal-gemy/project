@@ -1,8 +1,9 @@
+import { useEffect, useState } from "react";
 import { Card, Button, Col, Row } from "react-bootstrap";
 
 const SideLeft = () => {
   return (
-    <div className="w-25 ">
+    <div className="w-25">
       <Row>
         <Col>
           <Card className="shadow">
